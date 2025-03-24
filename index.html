@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home Connect</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header>
+    <h1>Home Connect</h1>
+  </header>
+  
+  <main>
+    <!-- Formulario -->
+    <section id="project-form">
+      <h2>Añadir Proyecto</h2>
+      <form id="addProjectForm">
+        <label for="project-title">Título del Proyecto:</label>
+        <input type="text" id="project-title" name="title" required>
+        
+        <label for="project-description">Descripción:</label>
+        <textarea id="project-description" name="description" required></textarea>
+        
+        <label for="project-category">Categoría:</label>
+        <select id="project-category" name="category" required>
+          <option value="" disabled selected>Seleccionar categoría</option>
+          <option value="cocina">Cocina</option>
+          <option value="baño">Baño</option>
+          <option value="sala de estar">Sala de Estar</option>
+          <option value="jardín">Jardín</option>
+        </select>
+        
+        <button type="submit">Añadir Proyecto</button>
+      </form>
+    </section>
+    
+    <!-- Lista de Proyectos -->
+    <section id="project-list">
+      <h2>Proyectos Añadidos</h2>
+      <ul id="projects"></ul>
+    </section>
+  </main>
+  
+  <script src="script.js"></script>
+</body>
+</html>

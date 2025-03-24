@@ -1,0 +1,7 @@
+# **Cómo Resolver Conflictos de Ramas en Git**
+
+**Resumen**
+
+Cuando trabajamos en equipo, el manejo de conflictos de ramas en Git es esencial para 
+evitar problemas y asegurar una integración fluida de cambios en los archivos compartidos. 
+Aquí te mostramos cómo se genera un conflicto de ramas y la forma efectiva de resolverlo paso a paso.

@@ -1,0 +1,30 @@
+## **¿Cómo funciona Git Revert?**
+
+1. **Identificación del commit**: usa `git log` para encontrar el commit a revertir.
+2. **Ejecuta `git revert`** seguido del hash del commit: crea un nuevo commit inverso, preservando el historial.
+3. **Editar el mensaje de commit**: permite dejar claro el motivo de la reversión, ideal en equipos colaborativos para mantener claridad.
+
+## **¿Cuándo es recomendable utilizar Git Reset o Git Revert?**
+
+Ambos comandos resultan útiles en diversas situaciones:
+
+- **Corrección de errores**: si has subido un archivo incorrecto, `git revert` es rápido y seguro para deshacer el cambio sin afectar el historial.
+- **Limpieza del historial**: en proyectos sólidos, puede que quieras simplificar el historial de commits; `git reset` ayuda a limpiar entradas innecesarias.
+- **Manejo de conflictos**: en casos extremos de conflicto de archivos, `git reset` es útil, aunque puede ser mejor optar por resolver conflictos manualmente.
+
+## **¿Cómo aseguras una correcta comunicación en el uso de estos comandos?**
+
+- Utiliza estos comandos en sincronización con el equipo.
+- Evita el uso de `git reset --hard` sin coordinación para prevenir la pérdida de trabajo ajeno.
+- Documenta cada reversión con un mensaje claro para asegurar el seguimiento de cambios.
+
+### **Lecturas recomendadas**
+
+- [**Git - git-reset Documentation**](https://git-scm.com/docs/git-reset)
+- [**Git - git-revert Documentation**](https://git-scm.com/docs/git-revert)
+
+# **Gestión de versiones: tag y checkout**
+
+### **🔹 Gestión de Versiones en Git: `tag` y `checkout`**
+
+En Git, podemos **marcar versiones importantes** y **movernos entre ellas** usando `git tag` y `git checkout`.

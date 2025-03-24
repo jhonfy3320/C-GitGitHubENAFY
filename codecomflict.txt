@@ -1,0 +1,119 @@
+# **Configuración Inicial de Git: init y config**
+
+**Resumen**
+
+Trabajar con Git en la terminal permite a los desarrolladores gestionar sus proyectos de manera eficiente. A continuación, revisamos cómo instalar, configurar y utilizar Git en Linux, Mac y WSL de Windows, junto con algunas recomendaciones prácticas para dominar los comandos iniciales de esta herramienta.
+
+## **¿Cómo confirmar que Git está instalado en tu sistema?**
+
+Para verificar la instalación de Git:
+
+1. Abre la terminal y escribe el comando `git --version`.
+2. Si el comando devuelve un número de versión, Git está listo para usarse.
+3. Si no aparece la versión, revisa los recursos adjuntos donde se explican las instalaciones para cada sistema operativo.
+
+## **¿Cómo crear y preparar el primer proyecto con Git?**
+
+El primer paso para crear un proyecto en Git es:
+
+1. Limpia la terminal para evitar confusión visual.
+2. Crea una carpeta para el proyecto con `mkdir nombre_del_proyecto`.
+3. Navega a la carpeta con `cd nombre_del_proyecto`.
+
+## **¿Cómo inicializar un repositorio en Git?**
+
+Al estar dentro de la carpeta de tu proyecto, inicia el repositorio con:
+
+- `git init`: Esto crea la rama inicial “master” por defecto.
+
+Si prefieres la rama principal como “main”:
+
+1. Cambia la configuración global escribiendo `git config --global init.defaultBranch main`.
+2. Actualiza la rama en el proyecto actual con `git branch -m main`.
+
+## **¿Cómo personalizar tu configuración de usuario en Git?**
+
+Configura el nombre de usuario y correo electrónico de Git, que identificará todas tus contribuciones:
+
+1. Usa `git config --global user.name "Tu Nombre o Apodo"`.
+2. Configura el correo electrónico con `git config --global user.email "tu.email@example.com"`.
+
+**Tip:** Si necesitas corregir algún error en el comando, puedes usar la tecla de flecha hacia arriba para recuperar y editar el último comando escrito.
+
+## **¿Cómo confirmar la configuración de Git?**
+
+Para revisar tu configuración, ejecuta:
+
+- `git config --list`: Aquí verás los datos de usuario y el nombre de la rama principal.
+
+Esta configuración se aplicará a todos los repositorios que crees en adelante.
+
+## **¿Qué hacer si olvidas un comando?**
+
+Git incluye un recurso rápido y útil para recordar la sintaxis de comandos:
+
+1. Escribe `git help` en la terminal.
+2. Navega la lista de comandos disponibles y consulta la documentación oficial de cada uno cuando sea necesario.
+
+### **🔹 Configuración Inicial de Git: `git init` y `git config`**
+
+Antes de empezar a trabajar con Git, es importante configurarlo correctamente y entender cómo iniciar un repositorio.
+
+---
+
+## **1️⃣ Configuración de Git con `git config`**
+
+El comando `git config` permite personalizar Git con información básica, como el nombre de usuario, el correo electrónico y otros parámetros esenciales.
+
+### **🔹 Configurar nombre y correo electrónico**
+
+Estos datos se usarán para identificar a la persona que realiza los commits:
+
+```bash
+bash
+CopiarEditar
+git config --global user.name "Tu Nombre"
+git config --global user.email "tuemail@example.com"
+
+```
+
+📌 **¿Por qué es importante?**
+
+Porque cada commit en Git lleva la información del autor, lo que facilita la colaboración y el historial del código.
+
+### **🔹 Ver la configuración actual**
+
+Para verificar la configuración de Git, usa:
+
+```bash
+bash
+CopiarEditar
+git config --list
+
+```
+
+Si quieres ver una configuración específica, por ejemplo, el usuario:
+
+```bash
+bash
+CopiarEditar
+git config user.name
+
+```
+
+### **🔹 Configurar el editor de texto predeterminado**
+
+Git usa un editor de texto para escribir mensajes de commit más largos. Puedes definir tu editor favorito con:
+
+```bash
+bash
+CopiarEditar
+git config --global core.editor "code --wait"  # Para Visual Studio Code
+git config --global core.editor "nano"        # Para Nano
+git config --global core.editor "vim"         # Para Vim
+
+```
+
+### **🔹 Configurar el branch principal como `main` (opcional)**
+
+Desde versiones recientes, Git usa `main` en lugar de `master`. Para asegurarte de que tu rama principal se llame `main`, ejecuta:

@@ -1,0 +1,34 @@
+en nuestra aplicación sanamente tenemos un usuario que en los últimos meses a cambiado sus patrones de sueño, ante dormía 7 horas y bajo a 6 horas también se identificó que a la hora de acostarse pasa una hora en redes sociales, que variables llevarían a la conclusión de que este usuario tiene trastornos mentales 
+
+Cambios en la rutina o estilo de vida
+Nivel de actividad física:
+¿El usuario realiza ejercicio regularmente? La falta de actividad puede afectar la calidad del sueño.
+Consumo de sustancias:
+¿Ha aumentado su consumo de cafeína, alcohol o tabaco?
+¿Está tomando medicamentos que alteren el sueño?
+Cambios en la dieta:
+¿Está consumiendo alimentos pesados antes de dormir, o su dieta en general ha cambiado?
+
+
+Tenemos un grupo de usuarios que hemos visto te tiene un cambio de comportamiento en las horas que se relaciona con otros usuarios en nuestra app sanamente, se identificó que son grupos que socializaban mas de 200 minutos en la semana, pero se identificó que actualmente solo socializan 50 minutos a la semana, queremos analizar a que se debe esta caída de socializar a que se debe el cambio de comportamiento en la socialización, cual es la causa, o efecto. Que la causa seria la caída de minutos que socializan, entonces cual sería el efecto piensa en las variables a que se debe la caída 
+
+Efecto: Impacto del cambio en la socialización
+La reducción en los minutos de interacción puede tener varios efectos sobre el usuario, como:
+Mayor aislamiento social: Puede aumentar el riesgo de ansiedad, depresión o sensación de desconexión.
+Disminución del bienestar emocional: La socialización es clave para la salud mental, y la reducción podría afectar su estado emocional.
+Cambio en el uso de la app: Menor tiempo de socialización puede estar vinculado con una reducción general en el tiempo que pasan en la aplicación.
+
+
+Principios clave de la ética en el análisis de datos
+Consentimiento informado:
+Los usuarios deben estar plenamente conscientes de cómo se recopilan, utilizan y almacenan sus datos, y deben dar su autorización explícita.
+Minimización de datos:
+Recopilar únicamente los datos estrictamente necesarios para cumplir los objetivos del proyecto.
+Transparencia:
+Informar a los usuarios sobre los procesos de análisis, las tecnologías utilizadas y los posibles riesgos asociados.
+Equidad y no discriminación:
+Garantizar que los algoritmos no reproduzcan ni amplifiquen sesgos sociales, culturales o económicos.
+Seguridad de los datos:
+Implementar medidas robustas para proteger la información contra accesos no autorizados, pérdidas o brechas de seguridad.
+Desde sanamente estamos analizando datos que nos dan indicios de salud mental y ofreciendo terapias personalizadas a nuestros usuarios, imagina el caso que al analizar todos estos datos hay unos usuarios que tienen riesgo de suicidio que se debería hacer 
+Incorporando nuevos datos para mejorar las estrategias y optimización continua, estos nuevos datos ya no son solamente de nuestro cliente, sino que también está su núcleo familiar (Pareja, hijos o familia ascendente) entonces este NBA no estría explicando solamente una estrategia individual sino también colectiva, piensa en ajustes nuevos deberíamos hacer a NBA para explicar esta nueva necesidad
