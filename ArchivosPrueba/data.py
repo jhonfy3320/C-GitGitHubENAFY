@@ -23,3 +23,21 @@ for row in rows:
 # Cerrar la conexión
 cur.close()
 conn.close()
+
+
+from collections import Counter
+
+texto = """
+Python es un lenguaje de programación poderoso y fácil de aprender.
+Tiene estructuras de datos eficientes y una sintaxis clara.
+"""
+
+# Preprocesar el texto
+palabras = texto.lower().split()
+
+# Contar las palabras
+conteo = Counter(palabras)
+
+# Mostrar las 5 palabras más comunes
+for palabra, cantidad in conteo.most_common(5):
+    print(f"{palabra}: {cantidad}")
