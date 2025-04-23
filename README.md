@@ -4,3 +4,7 @@ Aprende sobre control de versiones y colaboración en proyectos de software. Ges
 
 ¿Por qué evitar cambios directos en la rama principal?
 Realizar cambios directamente en la rama principal (main) puede sobrescribir el trabajo no sincronizado de otros colaboradores. Este error común se evita al:
+
+Resumen
+
+GitHub ha incorporado una herramienta que, aunque pasa desapercibida, puede hacer que editar archivos sea rápido y sencillo sin necesidad de un entorno completo como Codespaces. Este pequeño editor de código integrado en el navegador se activa al presionar Enter en la página de un repositorio, llevando al usuario a una experiencia muy similar a Visual Studio Code para ediciones rápidas y precisas.
