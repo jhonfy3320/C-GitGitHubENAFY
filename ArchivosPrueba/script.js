@@ -13,14 +13,24 @@ form.addEventListener('submit', (e) => {
   if (title && description && category) {
     
     const projectItem = document.createElement('li');
-    projectItem.innerHTML = `
-      <strong>${title}</strong> (${category})
-      <p>${description}</p>
-      <button class="delete-btn">Eliminar</button>
-    `;
     
-  
-    projectItem.querySelector('.delete-btn').addEventListener('click', () => {
+    const titleElement = document.createElement('strong');
+    titleElement.textContent = title;
+    projectItem.appendChild(titleElement);
+    
+    const categoryText = document.createTextNode(` (${category})`);
+    projectItem.appendChild(categoryText);
+    
+    const descriptionElement = document.createElement('p');
+    descriptionElement.textContent = description;
+    projectItem.appendChild(descriptionElement);
+    
+    const deleteButton = document.createElement('button');
+    deleteButton.textContent = 'Eliminar';
+    deleteButton.className = 'delete-btn';
+    projectItem.appendChild(deleteButton);
+    
+    deleteButton.addEventListener('click', () => {
       projectItem.remove();
     });
     
