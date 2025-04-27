@@ -8,3 +8,6 @@ Realizar cambios directamente en la rama principal (main) puede sobrescribir el 
 Resumen
 
 GitHub ha incorporado una herramienta que, aunque pasa desapercibida, puede hacer que editar archivos sea rápido y sencillo sin necesidad de un entorno completo como Codespaces. Este pequeño editor de código integrado en el navegador se activa al presionar Enter en la página de un repositorio, llevando al usuario a una experiencia muy similar a Visual Studio Code para ediciones rápidas y precisas.
+
+Juegos-con--Python
+Este repositorio contiene varios ejemplos de juegos desarrollados en Python. Cada juego muestra diferentes aspectos de la programación en Python, incluyendo programación orientada a objetos, interacción con el usuario y el uso de bibliotecas como Tkinter.
