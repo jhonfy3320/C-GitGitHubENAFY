@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/workspaces/C-GitGitHubENAFY/Proyecto1/probando/probando.csproj": {}
+    "/home/jhonfypy/Curso-Git-y-GitHuh/C-GitGitHubENAFY/Proyecto1/probando/probando.csproj": {}
   },
   "projects": {
-    "/workspaces/C-GitGitHubENAFY/Proyecto1/probando/probando.csproj": {
+    "/home/jhonfypy/Curso-Git-y-GitHuh/C-GitGitHubENAFY/Proyecto1/probando/probando.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/C-GitGitHubENAFY/Proyecto1/probando/probando.csproj",
+        "projectUniqueName": "/home/jhonfypy/Curso-Git-y-GitHuh/C-GitGitHubENAFY/Proyecto1/probando/probando.csproj",
         "projectName": "probando",
-        "projectPath": "/workspaces/C-GitGitHubENAFY/Proyecto1/probando/probando.csproj",
-        "packagesPath": "/home/codespace/.nuget/packages/",
-        "outputPath": "/workspaces/C-GitGitHubENAFY/Proyecto1/probando/obj/",
+        "projectPath": "/home/jhonfypy/Curso-Git-y-GitHuh/C-GitGitHubENAFY/Proyecto1/probando/probando.csproj",
+        "packagesPath": "/home/jhonfypy/.nuget/packages/",
+        "outputPath": "/home/jhonfypy/Curso-Git-y-GitHuh/C-GitGitHubENAFY/Proyecto1/probando/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/codespace/.nuget/NuGet/NuGet.Config"
+          "/home/jhonfypy/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -42,6 +42,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -58,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.407/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/256/sdk/8.0.407/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
