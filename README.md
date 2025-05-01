@@ -11,3 +11,6 @@ GitHub ha incorporado una herramienta que, aunque pasa desapercibida, puede hace
 
 Juegos-con--Python
 Este repositorio contiene varios ejemplos de juegos desarrollados en Python. Cada juego muestra diferentes aspectos de la programación en Python, incluyendo programación orientada a objetos, interacción con el usuario y el uso de bibliotecas como Tkinter.
+
+preciona <kbd>W</kbd> para ir hacia arriba, preciona <kbd>S</kbd> para ir hacia abajo, preciona <kbd>A</kbd> para ir a la izquierda o preciona <kbd>D</kbd> ára ir a la derecha 
+![image](https://github.com/user-attachments/assets/6b4f7dfa-9172-496a-b9c1-b6537a530ac5)
